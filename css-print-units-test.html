@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>CSS Print Units Test</title>
+<style type="text/css">
+*,*::before,*::after{box-sizing: border-box}
+
+h1 {
+    margin: 0.1cm 0 1cm 0;
+    font-size: 1.5rem;
+}
+
+.ruler-mm div {
+  display: inline-block;
+  width: 0.1cm;
+  height: 0.5cm;
+  border-left: 1px solid #ddd;
+}
+.ruler-cm div {
+  display: inline-block;
+  width: 1cm;
+  height: 0.5cm;
+  border-left: 1px solid #888;
+}
+
+table{border-collapse:collapse;border-spacing:0}
+.ruler-mm td {
+  width: 0.1cm;
+  height: 0.5cm;
+  border-left: 1px solid #ddd;
+}
+.ruler-cm td {
+  width: 1cm;
+  height: 0.5cm;
+  border-left: 1px solid #888;
+}
+
+.cm {
+  border-left: 1px solid black !important;
+}
+
+</style>
+</head>
+<body>
+
+<div class="ruler-mm"><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+><div class="cm"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div
+></div>
+<h1>⬆️ Inline divs - 1 mm width ⬆️</h1>
+
+<div class="ruler-cm"
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+><div class="cm"></div
+></div>
+<h1>⬆️ Inline divs - 1 cm width ⬆️</h1>
+
+
+<table class="ruler-mm">
+  <tbody>
+    <tr>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="cm"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+  </tbody>
+</table>
+<h1>⬆️ Table - 1 mm cell width ⬆️</h1>
+
+
+<table class="ruler-cm">
+  <tbody>
+    <tr>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+      <td class="cm"></td>
+    </tr>
+  </tbody>
+</table>
+<h1>⬆️ Table - 1 cm cell width ⬆️</h1>
+
+</body>
+</html>
